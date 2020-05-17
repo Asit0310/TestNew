@@ -149,7 +149,8 @@ public static void logfileCreation() throws IOException{
 	System.out.println("Log file creation");
 	logpath = CommonConstants.outputFolderPath+"\\"+testName+CommonUtils.getDate(0, null)+".docx";
 	CommonUtils.createWord(logpath);
-		
+	
+	
 	}
 	
 }
